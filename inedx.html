@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="h-screen flex justify-center items-center">
+    <!-- main-section -->
+    <section class="bg-amber-100 text-white-100 w-85 h-95 py-5 px-5 rounded-xl">
+      <form class="grid gap-y-[20px] flex justify-center items-center">
+        <div class="logo  flex justify-center items-center text-yellow-900">
+            <i class="fa-brands fa-pied-piper-alt text-[50px] "></i>
+        </div>
+        <h1 class="text-[32px] font-bold text-gray-700">Login your account</h1>
+        <div class="inp-one flex justify-center items-center relative">
+            <i class="fa-regular fa-envelope absolute left-10 text-gray-700"></i>
+          <input
+            type="text or e-mail"
+            placeholder="user name or g-mail"
+            class="border text-[] p-1 px-3 rounded-lg outline-none pl-10 hover:bg-gray-400"
+          /><br />
+        </div>
+        <div class="inp-two flex justify-center items-center relative">
+            <i class="fa-solid fa-building-lock absolute  left-10 text-gray-600"></i>
+          <input
+            type="password"
+            placeholder="password"
+            class="border p-1 px-3 rounded-lg outline-none pl-10 hover:bg-gray-400"
+          />
+        </div>
+        <div class="bttn flex justify-center items-center gap-[5px]">
+          <div class="login">
+            
+            <button
+              class="border rounded-lg px-4 cursor-pointer text-white bg-gray-800 text-[18px] hover:text-red-400 hover:bg-slate-700"
+            >
+              Login
+            </button>
+          </div>
+
+          <span class="font-bold text-lg">or</span>
+          <div class="sign-">
+            
+            <button
+              class="border 1px solid border-white-600 rounded-lg px-3 cursor-pointer text-white bg-gray-800 text-[18px] hover:text-red-400 hover:bg-slate-700"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+        <h1
+          class="flex justify-center items-center underline cursor-pointer py-[10px] hover:text-blue-500"
+        >
+          Forgot password?
+        </h1>
+      </form>
+    </section>
+  </body>
+</html>
